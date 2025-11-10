@@ -16,10 +16,15 @@ It highlights key concepts, practical implementations, and milestone achievement
 | **Phase** | **Focus Area**       | **Topics Covered**                     |
 
 | Phase 1   | Setup & Fundamentals | Git, Java Syntax, Control Flow         |
+
 | Phase 2   | Core Java            | Methods, Strings, OOPs                 |
+
 | Phase 3   | Advanced OOPs        | Inheritance, Polymorphism, Abstraction |
+
 | Phase 4   | Applied Java         | Interfaces, Packages, Exceptions       |
+
 | Phase 5   | Advanced Topics      | Generics, Collections, JDBC            |
+
 
 ---
 
