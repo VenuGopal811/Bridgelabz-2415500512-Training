@@ -34,3 +34,4 @@ public class queueUsing2Stack {
         System.out.println(q.dequeue());
     }
 }
+
