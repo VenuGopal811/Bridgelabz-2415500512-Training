@@ -1,4 +1,4 @@
-package Practice_Questions.pq;
+package pq;
 
 public class MoviemanagementUsingDoublyLL {
     class Node {
