@@ -1,6 +1,6 @@
 package dequeue;
 
-public class q1{
+public class DequeueExample {
     static class Node{
         int data;
         Node next;
