@@ -21,3 +21,7 @@ Degree of a Node- Number of children for a node is called degree of a node.
 
 Degree of a tree- Hoghest degree of a node in a tree is the degree of the tree itself.
 
+Leaf node- Nodes with zero children
+
+Internal Nodes- Nodes with atleast one child are called internal nodes. Also can be called Parent node.
+
