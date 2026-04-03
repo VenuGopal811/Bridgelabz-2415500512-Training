@@ -25,3 +25,9 @@ Leaf node- Nodes with zero children
 
 Internal Nodes- Nodes with atleast one child are called internal nodes. Also can be called Parent node.
 
+Level- Generations in a tree are called levels. (Start from 0 at root node)
+
+Height of a node- number of edges between given node and leaf node. (if more then one, go with the heighest number)
+
+Height of a tree- Height of root node.
+
