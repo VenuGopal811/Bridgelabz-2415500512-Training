@@ -13,4 +13,6 @@ There is one and only one path between two vertices/nodes
 
 Every node which has a child node is considered a parent node
 
+Child Node- Nodes which have one parent node or are descendant from another node are called child nodes.
+
 
