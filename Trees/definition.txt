@@ -31,3 +31,15 @@ Height of a node- number of edges between given node and leaf node. (if more the
 
 Height of a tree- Height of root node.
 
+Depth of a node- number of edges between root node and given node.
+
+Depth of a tree- Highest number of depth of a leaf.
+
+
+Sub tree- A sub-part of a tree is called a subtree.
+
+Types of trees- 
+1. General tree- has no structuire (a single node can have more then two children.)
+2. Binary tree- each node can have at most 2 branch.
+3. Binary Search Tree (BST) - Root node should be greater than left node but greater than right node.
+4. AVL Tree- 
