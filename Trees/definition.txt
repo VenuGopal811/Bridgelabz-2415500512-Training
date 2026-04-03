@@ -15,4 +15,9 @@ Every node which has a child node is considered a parent node
 
 Child Node- Nodes which have one parent node or are descendant from another node are called child nodes.
 
+Sibling Nodes- Nodes which have the same parrent node are called sibling nodes.
+
+Degree of a Node- Number of children for a node is called degree of a node.
+
+Degree of a tree- Hoghest degree of a node in a tree is the degree of the tree itself.
 
