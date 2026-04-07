@@ -29,5 +29,35 @@ class Tree{
         //3 level
         root.left.right.left = new Node(13);
         root.left.right.right = new Node(20);
+
+        System.out.println("Preorder Traversal:");
+        preOrder(root);
+        System.out.println("\nInorder Traversal:");
+        inOrder(root);
+        System.out.println("\nPostorder Traversal:");
+        postOrder(root);
+
     }
+
+    static void preOrder(Node root){
+        if(root == null) return;
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    static void inOrder(Node root){
+        if(root == null) return;
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+    }
+
+    static void postOrder(Node root){
+        if(root == null) return;
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
+    }
+
 }
