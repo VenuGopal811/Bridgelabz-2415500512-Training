@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-class tree{
+class Tree{
     public static void main(String[] args) {
         //0 level
         Node root = new Node(25);

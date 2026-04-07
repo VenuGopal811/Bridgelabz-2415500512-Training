@@ -2,7 +2,7 @@
 
 Tree is a non-linear data structure which consists of nodes and edges.
 
-A single node (in a binary tree) has three datas: 
+A single node (in a binary tree) has three datas:
 1. Value
 2. Left
 3. Right
