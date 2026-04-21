@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.*;
+
 class Node{
     int data;
     Node left;
@@ -36,6 +38,8 @@ class Tree{
         inOrder(root);
         System.out.println("\nPostorder Traversal:");
         postOrder(root);
+        System.out.println("Preorder List:");
+        preorderList(root);
 
     }
 
@@ -60,4 +64,16 @@ class Tree{
         System.out.print(root.data + " ");
     }
 
+    static List<Integer> preorderList(Node root){
+        if(root==null) return new ArrayList<>();
+
+        List<Integer> ans= new ArrayList<>();
+
+        System.out.print(root.data + " ");
+
+        ans.addAll(preorderList(root.left));
+        ans.addAll(preorderList(root.right));
+        
+        return ans;
+    }
 }
